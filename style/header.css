@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    top: 0%;
+    background-color: #3474eb80;
+    padding: 1.5rem;
+    border-bottom: 3px #3474eb;
+    position: fixed;
+    height: auto;    
+    width: 100vw;
+    color: white;
+}
+
+header>ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: right;
+    margin-right: 1.5rem;
+}
+
+header>ul>li{
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+header>ul>li:hover{
+    background-color: #3474eb;
+}

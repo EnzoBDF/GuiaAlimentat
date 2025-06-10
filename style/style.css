@@ -1,0 +1,11 @@
+@import url(./header.css);
+@import url(./start.css);
+@import url(./card.css);
+@import url(./avaliacoes.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
